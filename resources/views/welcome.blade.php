@@ -70,7 +70,7 @@
                 @auth
                 <a href="{{ route('home') }}">Home</a>
                 @else
-                <a href="{{ route('login') }}">Login</a>
+                <a href="{{ route('login') }}">Logi</a>
 
                 @if (Route::has('register'))
                 <a href="{{ route('register') }}">Register</a>
