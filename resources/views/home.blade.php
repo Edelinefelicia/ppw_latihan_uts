@@ -5,9 +5,9 @@
     <!-- Page Heading -->
     <h1 class="h3 mb-4 text-gray-800">{{ __('Dashboard') }}</h1>
 
-    @if (session('success'))
+    @if (sesion('success'))
     <div class="alert alert-success border-left-success alert-dismissible fade show" role="alert">
-        {{ session('success') }}
+        {{ sesion('success') }}
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -185,7 +185,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="col-lg-6 mb-4">
