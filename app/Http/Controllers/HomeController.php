@@ -30,7 +30,8 @@ class HomeController extends Controller
             'user' => $users,
             //...
         ];
+        // dd("q");
 
-        return view('homse', compact('widgets'));
+        return view('home', compact('widget'));
     }
 }

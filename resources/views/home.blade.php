@@ -5,9 +5,9 @@
     <!-- Page Heading -->
     <h1 class="h3 mb-4 text-gray-800">{{ __('Dashboard') }}</h1>
 
-    @if (sesion('success'))
+    @if (session('success'))
     <div class="alert alert-success border-left-success alert-dismissible fade show" role="alert">
-        {{ sesion('success') }}
+        {{ session('success') }}
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -89,7 +89,7 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">{{ __('Users') }}</div>
-                            <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $widget['users'] }}</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $widget['user'] }}</div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-users fa-2x text-gray-300"></i>
